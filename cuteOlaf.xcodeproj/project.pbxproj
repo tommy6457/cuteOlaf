@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		65D4ECE4275750AC00BCACE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4ECE3275750AC00BCACE0 /* AppDelegate.swift */; };
 		65D4ECE6275750AC00BCACE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4ECE5275750AC00BCACE0 /* SceneDelegate.swift */; };
-		65D4ECE8275750AC00BCACE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4ECE7275750AC00BCACE0 /* ViewController.swift */; };
+		65D4ECE8275750AC00BCACE0 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D4ECE7275750AC00BCACE0 /* MainVC.swift */; };
 		65D4ECEB275750AC00BCACE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ECE9275750AC00BCACE0 /* Main.storyboard */; };
 		65D4ECED275750B000BCACE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ECEC275750B000BCACE0 /* Assets.xcassets */; };
 		65D4ECF0275750B000BCACE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ECEE275750B000BCACE0 /* LaunchScreen.storyboard */; };
+		65D4ECFD275765E000BCACE0 /* Olaf Speak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ECFC275765E000BCACE0 /* Olaf Speak.m4a */; };
+		65D4ED0027576B8B00BCACE0 /* MySnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65D4ECFF27576B8A00BCACE0 /* MySnowParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65D4ECE0275750AB00BCACE0 /* cuteOlaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuteOlaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D4ECE3275750AC00BCACE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D4ECE5275750AC00BCACE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65D4ECE7275750AC00BCACE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D4ECE7275750AC00BCACE0 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		65D4ECEA275750AC00BCACE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D4ECEC275750B000BCACE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D4ECEF275750B000BCACE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65D4ECF1275750B000BCACE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D4ECFC275765E000BCACE0 /* Olaf Speak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Olaf Speak.m4a"; sourceTree = "<group>"; };
+		65D4ECFF27576B8A00BCACE0 /* MySnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MySnowParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		65D4ECE2275750AB00BCACE0 /* cuteOlaf */ = {
 			isa = PBXGroup;
 			children = (
+				65D4ECFC275765E000BCACE0 /* Olaf Speak.m4a */,
 				65D4ECE3275750AC00BCACE0 /* AppDelegate.swift */,
 				65D4ECE5275750AC00BCACE0 /* SceneDelegate.swift */,
-				65D4ECE7275750AC00BCACE0 /* ViewController.swift */,
+				65D4ECE7275750AC00BCACE0 /* MainVC.swift */,
+				65D4ECFF27576B8A00BCACE0 /* MySnowParticle.sks */,
 				65D4ECE9275750AC00BCACE0 /* Main.storyboard */,
 				65D4ECEC275750B000BCACE0 /* Assets.xcassets */,
 				65D4ECEE275750B000BCACE0 /* LaunchScreen.storyboard */,
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D4ECFD275765E000BCACE0 /* Olaf Speak.m4a in Resources */,
+				65D4ED0027576B8B00BCACE0 /* MySnowParticle.sks in Resources */,
 				65D4ECF0275750B000BCACE0 /* LaunchScreen.storyboard in Resources */,
 				65D4ECED275750B000BCACE0 /* Assets.xcassets in Resources */,
 				65D4ECEB275750AC00BCACE0 /* Main.storyboard in Resources */,
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D4ECE8275750AC00BCACE0 /* ViewController.swift in Sources */,
+				65D4ECE8275750AC00BCACE0 /* MainVC.swift in Sources */,
 				65D4ECE4275750AC00BCACE0 /* AppDelegate.swift in Sources */,
 				65D4ECE6275750AC00BCACE0 /* SceneDelegate.swift in Sources */,
 			);
